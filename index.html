@@ -7,6 +7,12 @@
    <title>JavaScript Practice</title>
 
    <style>
+      *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         transition: all 0.5s linear;
+      }
       body {
          width: 100vw;
          height: 100vh;
@@ -16,17 +22,40 @@
          flex-direction: column;
          background-color: #051923;
          overflow: hidden;
+         gap: 1rem;
       }
       h1 {
          font-size: 2.5rem;
          color: #fbf8cc;
          text-shadow: 1px 1px 2px #cae9ff;
+         margin-bottom: 1rem;
       }
 
       p {
          font-size: 1.5rem;
          color: #cae9ff;
          text-transform: capitalize;
+         margin-bottom: .8rem;
+      }
+      div{
+         display: flex;
+         gap: 1rem;
+         justify-content: center;
+         flex-wrap: wrap;
+      }
+      button{
+         font-size: 1rem;
+         border: none;
+         padding: 10px 15px;
+         background-color: #1b4965;
+         border-radius: 10px;
+         color: #cae9ff;
+         text-transform: capitalize;
+         cursor: pointer;
+      }
+      button:hover{
+         background-color: #1b4965dc;
+         color: #fbf8cc;
       }
    </style>
 </head>
@@ -34,10 +63,15 @@
 <body>
       <h1>JavaScript Practice</h1>
       <p>Check console</p>
+      <div>
+         <button id="bmi">BMI Calculator</button>
+         <button id="grade">Grade Calculator</button>
+      </div>
 
 
       <!-- BMI Calculator  -->
-      <script src="BMI-calculator.js"></script>
+      <script src="main.js" type="module"></script>
+      
 </body>
 
 </html>
