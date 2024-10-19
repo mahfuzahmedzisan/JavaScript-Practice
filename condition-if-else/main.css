@@ -38,8 +38,8 @@ div{
    justify-content: center;
    flex-wrap: wrap;
 }
-div a{
-   font-size: 1.2rem;
+button{
+   font-size: 1rem;
    border: none;
    padding: 10px 15px;
    background-color: #1b4965;
@@ -47,9 +47,22 @@ div a{
    color: #cae9ff;
    text-transform: capitalize;
    cursor: pointer;
-   text-decoration: none;
 }
-div a:hover{
+button:hover{
    background-color: #1b4965dc;
    color: #fbf8cc;
+}
+a{
+   text-decoration: none;
+   color: #cae9ff;
+   text-transform: capitalize;
+   font-size: 1.2rem;
+   margin-top: 1rem;
+   background-color: #fbf8cc;
+   padding: 5px 10px;
+   border-radius: 10px;
+   color: #1b4965;
+}
+a:hover{
+   background-color: #cae9ff;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "practice",
+  "name": "condition-if-else",
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
@@ -10,5 +10,4 @@
   "license": "ISC",
   "description": "",
   "type": "module"
-
 }
